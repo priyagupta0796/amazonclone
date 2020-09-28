@@ -1,0 +1,42 @@
+.Product1{
+
+    /* border: 1px solid lightgray; */
+    width: fit-content;
+    padding: 20px;
+    margin: 10px;
+    max-height: 400px;
+    min-width: 100px;
+    
+    transition: transform 100ms ease-in-out;
+
+}
+
+.Product1:hover{
+
+    background-color:lightcoral;
+    transform: scale(1.05);
+}
+
+.Product1 > h1{
+    padding-left: 100px;
+}
+
+.Product1 > h2{
+    padding-left: 100px;
+}
+
+.Product1 > h3{
+    padding-left: 100px;
+}
+.Product1 > img{
+
+    width: 300px;
+
+    border: gray;
+    object-fit: contain;
+}
+
+.Product1 > button{
+    margin-left: 100px;
+    background-color:lightseagreen;
+}
